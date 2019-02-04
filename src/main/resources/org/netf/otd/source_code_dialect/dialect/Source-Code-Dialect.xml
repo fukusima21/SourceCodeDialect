@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialect xmlns="http://www.thymeleaf.org/extras/dialect"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.thymeleaf.org/extras/dialect
+	                    http://www.thymeleaf.org/xsd/thymeleaf-extras-dialect-2.1.xsd"
+	prefix="source-code"
+	namespace-uri="http://www.netf.org/thymeleaf/source-code-dialect"
+	namespace-strict="false"
+	class="org.netf.otd.source_code_dialect.dialect.SourceCodeDialect">
+
+	<attribute-processor name="path"
+		class="org.netf.otd.source_code_dialect.dialect.processor.SourceCodeAttributeTagProcessor" />
+	<attribute-processor name="encode"
+		class="org.netf.otd.source_code_dialect.dialect.processor.SourceCodeAttributeTagProcessor" />
+
+</dialect>

@@ -1,0 +1,28 @@
+apply plugin: 'java'
+
+configurations {
+    ftpAntTask
+}
+
+repositories {
+  mavenLocal()
+  mavenCentral()
+}
+
+dependencies {
+  ftpAntTask 'org.apache.ant:ant-commons-net:1.10.5'
+}
+
+task upload << {
+
+    ant.taskdef( name: 'ftp'
+               , classname: 'org.apache.tools.ant.taskdefs.optional.net.FTP'
+               , classpath: configurations.ftpAntTask.asPath )
+
+    ant.ftp ( server: ""
+            , userid: ""
+            , password: ""
+            , remoteDir: "") {
+                 fileset(dir: "")
+            }
+}

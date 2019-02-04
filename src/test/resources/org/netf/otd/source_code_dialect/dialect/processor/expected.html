@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+	<pre>
+		<code>apply plugin: 'java'
+
+configurations {
+    ftpAntTask
+}
+
+repositories {
+  mavenLocal()
+  mavenCentral()
+}
+
+dependencies {
+  ftpAntTask 'org.apache.ant:ant-commons-net:1.10.5'
+}
+
+task upload &lt;&lt; {
+
+    ant.taskdef( name: 'ftp'
+               , classname: 'org.apache.tools.ant.taskdefs.optional.net.FTP'
+               , classpath: configurations.ftpAntTask.asPath )
+
+    ant.ftp ( server: &quot;&quot;
+            , userid: &quot;&quot;
+            , password: &quot;&quot;
+            , remoteDir: &quot;&quot;) {
+                 fileset(dir: &quot;&quot;)
+            }
+}
+</code>
+	</pre>
+</body>
+</html>
