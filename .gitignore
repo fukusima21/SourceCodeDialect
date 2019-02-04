@@ -18,3 +18,7 @@ target
 *.log
 *.swp
 *.bak
+
+# Gradle
+.gradle
+!gradle-wrapper.jar
