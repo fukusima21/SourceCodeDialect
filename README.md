@@ -22,6 +22,7 @@ have the `source-code` attribute available to be used in your templates.
 TemplateEngine templateEngine = new TemplateEngine();
 templateEngine.addDialect(new SourceCodeDialect());
 ...
+```
 
 # usage
 ```html:sample
@@ -36,3 +37,6 @@ templateEngine.addDialect(new SourceCodeDialect());
 	</pre>
 
 ```
+
+
+
