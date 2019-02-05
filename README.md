@@ -6,10 +6,10 @@ Escape the contents of the specified file.
 
 |  TH  |  TH  |
 | ---- | ---- |
-|  "  |  &quot;  |
-|  &  |  &amp;  |
-|  <  |  &lt;  |
-|  >  |  &gt;  |
+|  "  |  &amp;quot;  |
+|  &  |  &amp;amp;  |
+|  <  |  &amp;lt;  |
+|  >  |  &amp;gt;  |
 
 |  TH  |  TH  |
 | --- | -------- |--------------- |
