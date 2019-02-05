@@ -4,12 +4,12 @@ Escape the contents of the specified file.
 
 # escape charactor
 
-|  TH  |  TH  |
-| ---- | ---- |
-|  "  |  &amp;quot;  |
-|  &  |  &amp;amp;  |
-|  <  |  &amp;lt;  |
-|  >  |  &amp;gt;  |
+|  in |  out  |  -  |
+| ---- | ---- | ---- |
+|  "  |  &amp;quot;  | double-quote  |
+|  &  |  &amp;amp;  |  ampersand     |
+|  <  |  &amp;lt;  |  less-than     |
+|  >  |  &amp;gt;  |  greater-than  |
 
 |  TH  |  TH  |
 | --- | -------- |--------------- |
