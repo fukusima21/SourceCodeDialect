@@ -35,7 +35,9 @@ templateEngine.addDialect(new SourceCodeDialect());
 ...
 ```
 
-# usage
+usage
+------------
+
 ```html:sample
 <html xmlns:th="http://www.thymeleaf.org"  
 	xmlns:source-code="http://www.netf.org/thymeleaf/source-code-dialect">
