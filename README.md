@@ -1,5 +1,13 @@
 # SourceCodeDialect
 Original Thymeleaf Dialect for embed source code
+Escape the contents of the specified file.
+
+# escape charactor
+------------
+"\"" -> "&quot;"  - double-quote
+"&"  -> "&amp;"   - ampersand
+"<"  -> "&lt;"    - less-than
+">"  -> "&gt;"    - greater-than
 
 Current version: 
  
