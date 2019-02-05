@@ -4,19 +4,13 @@ Escape the contents of the specified file.
 
 # escape charactor
 
-|  in |  out  |  -  |
+|  in |  out  |    |
 | ---- | ---- | ---- |
 |  "  |  &amp;quot;  | double-quote  |
 |  &  |  &amp;amp;  |  ampersand     |
 |  <  |  &amp;lt;  |  less-than     |
 |  >  |  &amp;gt;  |  greater-than  |
 
-|  TH  |  TH  |
-| --- | -------- |--------------- |
-|  "  |  &quot;  |  double-quote  |
-|  &  |  &amp;   |  ampersand     |
-|  <  |  &lt;    |  less-than     |
-|  >  |  &gt;    |  greater-than  |
 
 
 Current version: 
