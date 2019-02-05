@@ -6,8 +6,10 @@ Escape the contents of the specified file.
 
 |  TH  |  TH  |
 | ---- | ---- |
-|  TD  |  TD  |
-|  TD  |  TD  |
+|  "  |  &quot;  |
+|  &  |  &amp;  |
+|  <  |  &lt;  |
+|  >  |  &gt;  |
 
 |  TH  |  TH  |
 | --- | -------- |--------------- |
