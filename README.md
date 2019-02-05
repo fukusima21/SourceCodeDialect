@@ -2,6 +2,10 @@
 Original Thymeleaf Dialect for embed source code  
 Escape the contents of the specified file.  
 
+Current version: 
+ 
+ * **Version 0.1.0-SNAPSHOT**
+
 # escape charactor
 
 |  in |  out  |    |
@@ -10,12 +14,6 @@ Escape the contents of the specified file.
 |  &  |  &amp;amp;  |  ampersand     |
 |  <  |  &amp;lt;  |  less-than     |
 |  >  |  &amp;gt;  |  greater-than  |
-
-
-
-Current version: 
- 
- * **Version 0.1.0-SNAPSHOT**
 
 Maven info
 ----------
