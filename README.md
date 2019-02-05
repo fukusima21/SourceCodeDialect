@@ -1,6 +1,16 @@
 # SourceCodeDialect
 Original Thymeleaf Dialect for embed source code
 
+Current version: 
+
+ * **Version 0.1.0-SNAPSHOT
+
+Maven info
+----------
+
+  *   groupId: `org.netf.otd.source-code-dialect`   
+  *   artifactId: `SourceCodeDialect`
+  
 # usage
 ```html:sample
 <html xmlns:th="http://www.thymeleaf.org"  
