@@ -4,6 +4,7 @@ Escape the contents of the specified file.
 
 # escape charactor
 ------------
+
 |  "  |  &quot;  |  double-quote  |
 |  &  |  &amp;   |  ampersand     |
 |  <  |  &lt;    |  less-than     |
